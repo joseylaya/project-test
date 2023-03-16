@@ -32,6 +32,6 @@ io.on("connection", (socket) => {
     });
   });
   
-  server.listen(3001, () => {
+  server.listen('https://project-test-trial2.onrender.com/3001' || 3001, () => {
     console.log("SERVER RUNNING");
   });
